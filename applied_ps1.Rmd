@@ -2,11 +2,7 @@
 title: "30535 Applied Problem Set 1"
 author: "Khristel Zavaleta"
 date: "4/10/2022"
-output: 
-  pdf_document:
-    number_sections: yes
-  html_document:
-    df_print: paged
+output: md_document
 urlcolor: blue
 ---
 
@@ -60,7 +56,6 @@ In prior years for this problem set, students downloaded the data directly from 
 - Reading the monthly data:
 
 ```{r, warning = FALSE, message = FALSE, echo=FALSE}
-
 il_flights1 <- read_csv("data/il_flights_2016_1.csv")
 
 il_flights2 <- read_csv("data/il_flights_2016_2.csv")
